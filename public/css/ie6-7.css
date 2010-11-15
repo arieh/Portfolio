@@ -1,0 +1,11 @@
+#portfolio dl{
+    background-position:-780px -326px;
+}
+
+#portfolio li{
+    border-width:4px;
+}
+
+#portfolio .more,#portfolio .more:visited{
+   display:none;
+}
