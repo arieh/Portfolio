@@ -48,6 +48,8 @@ nav.social a{
     background-position:-870px -804px;
 }
 
+#f-twitter a{position:absolute;visibility:hidden}
+
 #f-email{
     background-position:-842px -857px;
 }
@@ -213,10 +215,13 @@ article h2{
   display:block;
   width:50px;
   height:50px;
-  text-indent:-9999px;
-  overflow:hidden;
   position:absolute;
   zoom:1;
+}
+
+#portfolio a span{
+  text-indent:-9999px;
+  overflow:hidden;
 }
 
 #portfolio .more,#portfolio .more:visited{
