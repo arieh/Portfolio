@@ -48,7 +48,7 @@ nav.social a{
     background-position:-870px -804px;
 }
 
-#f-twitter a{position:absolute;visibility:hidden}
+#f-twitter span{position:absolute;visibility:hidden}
 
 #f-email{
     background-position:-842px -857px;
