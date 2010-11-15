@@ -44,8 +44,12 @@ nav.social a{
     border-left:#600 solid 2px;
 }
 
+#blog{
+    background-position:-872px -741px;
+}
+
 #f-twitter{
-    background-position:-870px -804px;
+    background-position:-874px -804px;
 }
 
 #f-twitter span{position:absolute;visibility:hidden}
