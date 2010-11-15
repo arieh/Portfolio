@@ -222,6 +222,8 @@ article h2{
 #portfolio a span{
   text-indent:-9999px;
   overflow:hidden;
+  display:block;
+  zoom:1;
 }
 
 #portfolio .more,#portfolio .more:visited{
