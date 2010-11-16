@@ -24,7 +24,7 @@ header.main{
 
 header.main a, header.main a:visited{
     text-decoration:none;
-    color:#fff;
+    color:#A61607;
 }   
 
 nav.social{
@@ -37,11 +37,12 @@ nav.social li{
     padding-top:23px;    
 }
 
-nav.social a{
+nav.social a, nav.social a:visited{
     padding:10px;
     height:21px;
     padding:8px 10px 10px;
     border-left:#600 solid 2px;
+    color:#fff;
 }
 
 #blog{
