@@ -9,7 +9,7 @@ body{
     min-height:100%;
     height:auto !important;
     height:100%;
-    font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,sans-serif
+    font-family:"Lucida Grande","Lucida Sans Unicode","Gargi_1.7","Garuda",Helvetica,Arial,sans-serif
 }
 
 header.main,#main,#top-trans,#bottom-trans{z-index:10}
@@ -153,6 +153,10 @@ article h2{
     width:100%;
 }
 
+#about a, #about a:visited, #about a:hover{
+        color:#A61607;
+        font-weight:bold;
+}
 
 #avatar{
     float:right;
