@@ -33,9 +33,8 @@ require_once '../includes/PHPMailer/class.phpmailer-lite.php';
 
 
 $name = (isset($_POST['name']) && $_POST['name']!='') ? $_POST['name'] : 'אנונימי';
-$phone = (isset($_POST['phone']) && $_POST['phone']!= '') ? $_POST['phone'] : 'אין';
 $email = (isset($_POST['email']) && $_POST['email']!='') ? $_POST['email'] :'אין';
-$extra = (isset($_POST['comment'])) ? $_POST['comment'] : '';
+$extra = (isset($_POST['more'])) ? $_POST['more'] : '';
 
     $Mail = new PHPMailerLite();
     $Mail->CharSet = 'utf-8';
@@ -58,7 +57,6 @@ $extra = (isset($_POST['comment'])) ? $_POST['comment'] : '';
     <h1>התקבלה הודעה חדשה באתר!</h1>"
     ."<p>שם: $name</p>"
     ."<p>דוא\"ל: <a href='mailto:$email'>$email</a></p>"
-    . "<p>טלפון: $phone</p>"
     ."<p>הערות: $extra</p>"
     ."</body>
 </html>";
